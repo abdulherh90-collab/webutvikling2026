@@ -1,0 +1,81 @@
+body {
+    font-family: 'Gill Sans', Arial, sans-serif;
+}
+
+
+h1 {
+    color: hsl(11, 100%, 60%);
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+/* eksten bruker ny skrifttype
+overskriften er større
+overskriften er tykk
+overskriften er sentrert
+overskriften har HSL-farge */
+
+/*.boks1 {
+   /* background-color: cadetblue;*/
+   /*background-color: rgba(95, 158, 160, 0.5);*/
+   /* bakgrunnen blir gjennomsiktig, mens teksten fortsatt er tydelig*/
+
+
+.boks1 {
+    background-color: cadetblue;
+    opacity: 0.5;
+}
+/* Her blir hele boksen, inkludert teksten, gjennomsiktig.*/
+/* RGBA gjør bare bakgrunnsfargen gjennomsiktig,
+   mens opacity gjør hele elementet, inkludert teksten, gjennomsiktig. */
+
+
+
+.boks2 {
+    background-color: #FF5733;
+    text-transform: uppercase;
+}
+/* (Dette er tekst inni boks2) blir vist som: (DETTE ER TEKST INNI BOKS 2)*/
+
+
+
+.boks3 {
+    background-color: rgb(255, 0, 34);
+    background-image: url("https://picsum.photos/400/200");
+    /*background-size: cover;*/
+    /* Cover betyr at bildet dekker hele boksen.
+Noe av bildet kan bli kuttet bort for å fylle hele området */
+
+    background-size: contain;
+/* cover fyller hele boksen og kan kutte deler av bildet.
+   contain viser hele bildet, men kan gi tom plass rundt. */
+}
+
+/* Tre forskjellige fargeformater:
+boks1 → fargenavn
+boks2 → HEX
+boks3 → RGB */
+
+.boks1,
+.boks2,
+.boks3 {
+    padding: 30px;
+    margin: 20px 0;
+}
+
+/* For at boksene skal være lettere å se*/
+
+.stor-tekst {
+    font-size: 1.5rem;
+}
+
+.luftig {
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    /* Da forsvinner understrekingen fra Google-lenken.
+ */
+}
+
