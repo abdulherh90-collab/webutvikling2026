@@ -134,7 +134,7 @@ table {
 }
 
 th,
-td {
+ td {
 	padding: 0.5rem 1rem;
 	text-align: left;
 	border-bottom: 1px solid #dde3ea;
@@ -143,3 +143,4 @@ td {
 tbody tr:nth-child(even) {
 	background-color: #f5f7fa;
 }
+
