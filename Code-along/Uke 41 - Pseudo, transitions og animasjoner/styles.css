@@ -376,18 +376,28 @@ address {
 	}
 }
 
+<<<<<<< Updated upstream:Code-along/Uke 41 - Pseudo, transitions og animasjoner/styles.css
 .hovednav a {
 	position: relative;
 }
 
 .hovednav a::after {
 	content: "";
+=======
+.hovednav a{
+	position: relative;
+}
+
+.hovednav a::after{
+	content:"";
+>>>>>>> Stashed changes:Code-along/Uke 41 - Pseudo/styles.css
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	height: 2px;
 	width: 0;
 	background-color: #ef8354;
+<<<<<<< Updated upstream:Code-along/Uke 41 - Pseudo, transitions og animasjoner/styles.css
 	transform: scale(1.5);
 	transition-property: width, transform;
 	transition-delay: 0;
@@ -413,10 +423,33 @@ address {
 }
 
 .menyliste li:nth-child(4)::after {
+=======
+	transition: width 500ms ease;
+}
+
+.hovednav a:hover::after{
+	width: 100%;
+	background-color: #e77c4f;
+}
+.hero .knapp:hover {
+	background-color: #e77c4f; 
+	
+}
+.hero .knapp:active {
+	background-color: #9d4723; 
+}
+
+.menyliste li:nth-child(even){
+	background-color: #ece3dc;
+}
+
+.menyliste li:nth-child(4)::after{
+>>>>>>> Stashed changes:Code-along/Uke 41 - Pseudo/styles.css
 	content: "NY";
 	position: absolute;
 	top: -0.6rem;
 	right: -0.06rem;
+<<<<<<< Updated upstream:Code-along/Uke 41 - Pseudo, transitions og animasjoner/styles.css
 	background-color: #bf5f36;
 	color: white;
 	font: 0.7rem;
@@ -433,4 +466,23 @@ address {
 	color: #8a5c46;
 	float: left;
 	padding-right: 0.3rem;
+=======
+	background-color: #ef8354;
+	color: #ffffff;
+	font: 0.7rem;
+	font-weight: bold;
+	padding:0.5rem;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.om-oss p:first-of-type::first-letter{
+	font-family: "comic sans ms", sans-serif;
+	font-size: 3rem;
+	font-weight: bold;
+	color: #ef8354;
+	float: left;
+	margin-right: 0.3rem;
+	line-height: 1;
+>>>>>>> Stashed changes:Code-along/Uke 41 - Pseudo/styles.css
 }
